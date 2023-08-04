@@ -28,5 +28,6 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#fff'
+    fontFamily: 'Inter-Black', fontSize: 30
   },
 });
