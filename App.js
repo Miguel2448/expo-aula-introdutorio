@@ -4,7 +4,7 @@ import { useFonts } from 'expo-font';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    'Inter-Black': require('./assets/fonts/Inter-Black.otf'),
+    'Inter-Black': require('./assets/fonts/Inter-Black.ttf'),
   });
 
   if (!fontsLoaded) {
@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#fff'
-    fontFamily: 'Inter-Black', fontSize: 30
+    fontFamily: 'Inter-Black',
+    fontSize: 30,
   },
 });
