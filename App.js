@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    color: '#fff'
+    color: '#fff',
     fontFamily: 'Inter-Black',
     fontSize: 30,
   },
